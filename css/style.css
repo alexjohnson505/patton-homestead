@@ -2,54 +2,31 @@
         Styles
  ************************/
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-
-  /* Set the fixed height of the footer here */
-  height: 50px;
-  background-color: #f5f5f5;
-}
-
 
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-.navbar-header {
+nav .navbar-header {
 	height: 75px;
 }
 
-.navbar-nav {
+nav .navbar-nav {
 	margin-top: 10px;	
 }
 
-img.logo {
+nav img.logo {
   height: 60px;
   width: 55px;
   margin-top: -7px;
 }
 
-.img-wrapper {
-	max-height: 300px;
-	overflow: hidden;
-	margin-bottom: 20px;
-}
+
 
 body > .container {
   padding: 60px 15px 0;
 }
+
 .container .text-muted {
   margin: 20px 0;
 }
@@ -67,10 +44,45 @@ body > .container {
 	color: #9B9FA3;
 }
 
-code {
-  font-size: 80%;
+.img-wrapper {
+	max-height: 300px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.img-wrapper .img-header {
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	color: #fff;
+	margin:0 auto;
+}
+
+.img-wrapper .img-header h2{
+	
+
 }
 
 @media(min-width:768px) {
     
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f5f5f5;
 }
