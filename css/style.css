@@ -18,7 +18,7 @@ body {
   width: 100%;
 
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 50px;
   background-color: #f5f5f5;
 }
 
@@ -57,6 +57,14 @@ body > .container {
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.footer .navbar-nav {
+	margin-top: 0px;
+}
+
+.footer a {
+	color: #9B9FA3;
 }
 
 code {
