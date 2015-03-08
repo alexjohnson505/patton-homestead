@@ -32,14 +32,19 @@ body {
 }
 
 .navbar-nav {
-	margin-top: 10px;
+	margin-top: 10px;	
 }
-
 
 img.logo {
   height: 60px;
   width: 55px;
   margin-top: -7px;
+}
+
+.img-wrapper {
+	max-height: 300px;
+	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 body > .container {
