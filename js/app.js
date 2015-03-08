@@ -1,3 +1,10 @@
+
+// Load Header & Footer Content
+function initializeTemplate(){
+	$("nav#header").load("include/header.tpl.html", function(result){});
+	$("#footer").load("include/footer.tpl.html", function(result){});
+};
+
 /*!
  * IE10 viewport hack for Surface/desktop Windows 8 bug
  * Copyright 2014 Twitter, Inc.
