@@ -84,18 +84,21 @@ body > .container {
   width: 400px;*/
 }
 
-.image-textbox a {
+.image-textbox {
   position: absolute;
   width: 300px;
-  color: #fff;
+  /*color: #fff;*/
   font-weight: bold;
-  bottom: 300px;
+  bottom: 150px;
   left: 675px;
   padding: 40px 0;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.image-textbox a {
+  color: #fff;
+  }
 
 
 /* Sticky footer styles
