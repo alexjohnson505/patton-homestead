@@ -111,7 +111,11 @@ body > .container {
   /*list-style-type:disk*/
   }
 
-
+.table, td, th {
+    border: 1px solid black;
+    text-align: left;
+    vertical-align: top;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
