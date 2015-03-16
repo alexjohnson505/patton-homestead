@@ -1,8 +1,8 @@
 
 // Load Header & Footer Content
 function initializeTemplate(){
-	$("nav#header").load("include/header.tpl.html", function(result){});
-	$("#footer").load("include/footer.tpl.html", function(result){});
+	$("nav#header").load("header.tpl.html", function(result){});
+	$("#footer").load("footer.tpl.html", function(result){});
 };
 
 /*!
